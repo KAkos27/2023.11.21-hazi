@@ -31,7 +31,7 @@ def hatodik(szam):
     primindex:int = 0
     prim:str = f"A(z) {szam} egy prímszám"
     nemprim:str = f"A(z) {szam} nem egy prímszám"
-    
+
     for i in range(1,szam + 1,1):
         if szam % i == 0:
             primindex+=1
@@ -41,3 +41,29 @@ def hatodik(szam):
     else:
         return nemprim
        
+def hetedik():
+    osszegzo:int = 0
+    for i in range(1,100001,1):
+        negyzetindex:float = i ** 0.5
+        if negyzetindex % 1 == 0:
+            osszegzo+=1
+
+    return osszegzo
+
+def nyolcadik():
+    osszegzo:int = 0
+    for i in range(10000,100001,1):
+        negyzetindex:float = i ** 0.5
+        if negyzetindex % 1 == 0:
+            osszegzo+=1
+
+    return osszegzo
+
+def kilencedik():
+    osszegzo:int = 0
+    for i in range(0,10001,1):
+        negyzetindex:float = i ** 0.5
+        if negyzetindex % 1 == 0:
+            osszegzo+=i
+
+    return osszegzo

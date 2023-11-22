@@ -14,3 +14,12 @@ print()
 
 hatodik:str = feladatok.hatodik(9)
 print(hatodik)
+
+hetedik:int = feladatok.hetedik()
+print(hetedik)
+
+nyolcadik:int = feladatok.nyolcadik()
+print(nyolcadik)
+
+kilencedik:int = feladatok.kilencedik()
+print(kilencedik)
